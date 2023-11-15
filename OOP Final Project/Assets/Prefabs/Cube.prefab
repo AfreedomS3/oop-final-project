@@ -148,5 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   figureName: Cube
   spawnIndex: 0
+  impulseForce: 5
   selectedMaterial: {fileID: 2100000, guid: a7c0a757498138f40bbd1b2960ead1db, type: 2}
   originalMaterial: {fileID: 2100000, guid: 3aa9c824ad24f004293af777498d0bb8, type: 2}
+  isGrounded: 0

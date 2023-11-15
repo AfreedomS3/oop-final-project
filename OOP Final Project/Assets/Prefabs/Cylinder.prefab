@@ -150,5 +150,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   figureName: Cylinder
   spawnIndex: 1
+  impulseForce: 5
   selectedMaterial: {fileID: 2100000, guid: a7c0a757498138f40bbd1b2960ead1db, type: 2}
   originalMaterial: {fileID: 2100000, guid: d749ee728aeb7e448bf98a00425a4da6, type: 2}

@@ -148,5 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   figureName: Sphere
   spawnIndex: 2
+  impulseForce: 7
   selectedMaterial: {fileID: 2100000, guid: a7c0a757498138f40bbd1b2960ead1db, type: 2}
   originalMaterial: {fileID: 2100000, guid: a91384766936ede4eb521bddc38b9b56, type: 2}
+  isGrounded: 0

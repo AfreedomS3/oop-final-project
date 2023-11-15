@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    // ENCAPSULATION
     public static GameManager Instance { get; private set; }
     public Session sessionData;
+
+    // ENCAPSULATION
     private bool _GameOver = true;
     public bool isGameOver
     {
@@ -31,13 +34,13 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        _GameOver = true;
+        _GameOver = false;
         SceneManager.LoadScene(1);
     }
 
     public void GameOver()
     {
-        _GameOver = false;
+        _GameOver = true;
         SceneManager.LoadScene(0);
     }
 
